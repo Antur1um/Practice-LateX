@@ -1,0 +1,3 @@
+\hspace*{\fill}
+{ILLUSTRATION 1} \hfill {ILLUSTRATION 2}
+\hspace*{\fill}
