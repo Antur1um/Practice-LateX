@@ -1,0 +1,18 @@
+\babel@toc {russian}{}
+\contentsline {section}{\numberline {1}``Описание проекта'}{2}{}%
+\contentsline {subsection}{\numberline {1.1}Актуальность, теоретическая и практическая значимость}{2}{}%
+\contentsline {subsection}{\numberline {1.2}Теоретическая значимость}{2}{}%
+\contentsline {subsection}{\numberline {1.3}Состав группы участников проекта}{2}{}%
+\contentsline {subsection}{\numberline {1.4}Состав группы}{2}{}%
+\contentsline {subsection}{\numberline {1.5}Общие цель и задачи}{2}{}%
+\contentsline {subsection}{\numberline {1.6}Распределение по ролям}{2}{}%
+\contentsline {subsection}{\numberline {1.7}План-график работы}{3}{}%
+\contentsline {subsection}{\numberline {1.8}Что такое \TeX и \LaTeX ?}{3}{}%
+\contentsline {subsection}{\numberline {1.9}Используемые программные средства}{3}{}%
+\contentsline {subsection}{\numberline {1.10}Что представляет собой \LaTeX докумет}{4}{}%
+\contentsline {section}{\numberline {2}Ход работы}{4}{}%
+\contentsline {subsection}{\numberline {2.1}03.02.21-11.03.21}{4}{}%
+\contentsline {subsection}{\numberline {2.2}12.03.21-26.03.21}{4}{}%
+\contentsline {subsection}{\numberline {2.3}27.03.21-15.04.21}{5}{}%
+\contentsline {subsection}{\numberline {2.4}16.04.21-28.04.21}{7}{}%
+\contentsline {subsection}{\numberline {2.5}29.04.21-14.05.21}{11}{}%

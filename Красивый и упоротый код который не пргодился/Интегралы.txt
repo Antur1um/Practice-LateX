@@ -1,0 +1,45 @@
+  \begin{multicols}{3}
+    \begin{itemize}
+\item[1.] $\int 0 \cdot dx = C $
+\item[2.] $\int dx = x + C $
+\item[3.] $\int x^n dx = \dfrac{x^{n+1}}{n+1} + C  $
+\item[3.] $\int \dfrac{dx}{x} = \ln|x| + C   $
+\item[4.] $\int \dfrac{du}{\sqrt{u}} = 2\sqrt{u} + C $
+\item[5.] $\int a^x dx = \dfrac{a^x}{\ln a}+C $
+\item[6.] $ \int e^x dx = e^x + C  $
+\item[7.] $\int \sin x dx  = -\cos x + C $
+\item[8.] $\int \cos x dx  = \sin x + C $
+\item[9.] $ \int \dfrac{dx}{\cos^2x} = tgx + C $
+\item[10.] $ \int \dfrac{dx}{\sin^2x} = -ctgx + C $
+\item[11.] $\int \dfrac{dx}{x^2 - a^2} = \dfrac{1}{2a}\ln \left| \dfrac{x-a}{x+a} \right| + C\ $ 
+\item[12.] $ \int \frac{dx}{\sqrt{x^2 \pm a^2}}=\ln|x+\sqrt{x^2 \pm a^2}| + C$
+\item[13.] $\int \dfrac{dx}{\sqrt{a^2 - x^2}} = \arcsin \dfrac{x}{a} + C   $
+\item[14.] $ \int \dfrac{dx}{x^2 + a^2} = \dfrac{1}{a} \arctg \dfrac{x}{a} + C$
+\item[15.] $ \int \tan x dx  = $ 
+\end{itemize}
+
+\end{multicols}
+
+
+
+  \begin{multicols}{3}
+    \begin{itemize}
+\item[1.] $\int 0 \cdot dx = C $
+\item[2.] $\int dx = x + C $
+\item[3.] $\int x^n dx = \dfrac{x^{n+1}}{n+1} + C  $
+\item[3.] $\int \dfrac{dx}{x} = \ln|x| + C   $
+\item[4.] $\int \dfrac{du}{\sqrt{u}} = 2\sqrt{u} + C $
+\item[5.] $\int a^x dx = \dfrac{a^x}{\ln a}+C $
+\item[6.] $ \int e^x dx = e^x + C  $
+\item[7.] $\int \sin x dx  = -\cos x + C $
+\item[8.] $\int \cos x dx  = \sin x + C $
+\item[9.] $ \int \dfrac{dx}{\cos^2x} = tgx + C $
+\item[10.] $ \int \dfrac{dx}{\sin^2x} = -ctgx + C $
+\item[11.] $\int \dfrac{dx}{x^2 - a^2} = \dfrac{1}{2a}\ln \left| \dfrac{x-a}{x+a} \right| + C\ $ 
+\item[12.] $ \int \frac{dx}{\sqrt{x^2 \pm a^2}}=\ln|x+\sqrt{x^2 \pm a^2}| + C$
+\item[13.] $\int \dfrac{dx}{\sqrt{a^2 - x^2}} = \arcsin \dfrac{x}{a} + C   $
+\item[14.] $ \int \dfrac{dx}{x^2 + a^2} = \dfrac{1}{a} \arctg \dfrac{x}{a} + C$
+\item[15.] $ \int \tan x dx  = $ 
+\end{itemize}
+
+\end{multicols}

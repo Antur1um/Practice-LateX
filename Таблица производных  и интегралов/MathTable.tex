@@ -1,0 +1,199 @@
+\documentclass[12pt,4paper]{report}
+\usepackage[utf8]{inputenc}
+\usepackage[russian]{babel}
+\usepackage{pdflscape,multicol,blindtext}
+\usepackage{amsmath}
+\usepackage[dvinames, svgnames, x11names]{xcolor}
+\usepackage{tikz}
+\usetikzlibrary{}
+
+\usepackage{fullpage}
+
+\author{Буданцев Артем}
+\title{Таблицы производных, интегралов и некоторые связанные формулы}
+\begin{document}
+\begin{landscape}
+
+%\begin{flushleft}
+%\begin{tikzpicture}
+%\draw (0,0)--(5,0)--(0,-5)--cycle;
+%\end{tikzpicture}
+%\end{flushleft}
+
+%\begin{flushright}
+%\begin{tikzpicture}
+%\draw (0,-5)--(6,-5)--(0,0)--cycle;
+%\end{tikzpicture}
+%\end{flushright}
+
+\begin{tikzpicture}
+    \begin{scope}
+        \draw[very thick, inner color=green, outer color=DarkBlue] (0,0)--(5,0)--(0,-5)--cycle;
+    \end{scope}
+    \begin{scope}[xshift=17cm]
+       \draw[very thick, left color=blue, right color=green](0,0)--(5,0)--(5,-5)--cycle;
+    \end{scope}
+\end{tikzpicture}
+
+\hfill\break
+
+
+\textbf{{\Huge Таблицы производных и интегралов}}
+\\
+
+\begin{tikzpicture}
+    \begin{scope}
+        \draw[very thick, left color=blue, right color=green](0,0)--(5,-5)--(0,-5)--cycle;
+    \end{scope}
+    \begin{scope}[xshift=17cm]
+       \draw[very thick, inner color=green, outer color=DarkBlue](0,-5)--(5,0)--(5,-5)--cycle;
+    \end{scope}
+\end{tikzpicture}
+
+\newpage
+
+
+
+
+
+  \begin{multicols}{3}
+    \begin{itemize}
+\item[1.] $ c' = 0 \  (c = const)  $
+\item[2.] $ (x^n)' = nx^{n-1} $
+\item[3.] $ (\sqrt{x})' = \dfrac{1}{2\sqrt{x}} $
+\item[4.] $ (a^x)' = a^x\cdot  \ln{a} $
+\item[5.] $ (e^x)' = e^x $
+\item[6.] $ (\log_{a} x)' = \frac{1}{x\ln a} $
+\item[7.] $ (\ln x)' = \frac{1}{x}  $ 
+\item[8.] $(\sin \  x)' = \cos \ x  $ 
+\item[9.] $(\cos \  x) = - \sin \ x  $ 
+\item[10.] $ (\tan \ x)' = \dfrac{1}{\cos ^2 x}  $
+\item[11.] $(\ctg)' = -\dfrac{1}{\sin^2 x}  $
+\item[12.] $ (\arcsin \ x)' = \dfrac{1}{\sqrt{1 - x^2}}  $ 
+\item[13.] $ (\arccos \ x)' = -\dfrac{1}{\sqrt{1 - x^2}}  $ 
+\item[14.] $ (\arctan \ x)' = \dfrac{1}{1 + x^2} $
+\item[15.] $ (arcctg  \ x)' = -\dfrac{1}{1 + x^2} $
+\item[16.] $ (\sinh x)' = \cosh \ x $
+\item[17.] $ (\cosh x)' = \sinh \ x $
+\item[18.] $ (\tanh x)' = \dfrac{1}{\cosh^2 x}
+ $
+ \item[19.] $ (cth \  x)' = -\dfrac{1}{\sinh^2 x}
+ $
+\end{itemize}
+\end{multicols}
+{\Large \textsl{\textbf{Основные правила вычисления производных:}}}
+\\
+\begin{itemize}
+\item[I] Константу можно вынести за производную: $(c \cdot u(x)) = c \cdot u'(x),c = const $
+
+\item[II] Производная суммы/разности: $(u(x)\pm v(x))' = u'(x) \pm v'(x) $
+\item[III] Производная произведения: $(u(x) \cdot v(x))' = u'(x)v(x) + u(x)v'(x)$
+\item[IV]  Производная частного:$(\dfrac{u(x)}{v(x)})' = \dfrac{u'(x)v(x) - u(x)v'(x)}{v^2(x)} \ ,v(x) \neq 0 $
+\item[V] Производная сложной функции: $y(u(\mathbf{x}))' = y'(u) \cdot u'(x)$ 
+\end{itemize}
+\newpage
+{\Large \textbf {Теорема о производной обратной функции}}
+\\
+Если функция $y = f(x)$ непрерывна и строго монотонна в некоторой окрестности точки $x_{0}$ и диффиренцируема в этой точке, то обратная функция $x = f^{-1}(y)$ имеет производную в точке $y_{0} = f(x_{0}),$  причем $\dfrac{df^{-1}(y_{0})}{dy} = \dfrac{1}{\frac{df(x_{0})}{dx}}.$ 
+\\
+\begin{tikzpicture}
+\draw (5,0)--(25,0);
+\end{tikzpicture}
+\\
+%\begin{center}
+%{\Large \textsl{\textbf{Интегралы}}}
+%\end{center}
+\newpage
+{\large \textbf{Интегралы от рациональных функций}}
+%\begin{multicols}{2}
+    \begin{itemize}
+\item[1.] $\int x^n dx = \dfrac{x^{n+1}}{n+1} + C  $
+\item[2.] $\int (ax + b)^n dx = \dfrac{(ax + b)^{n+1}}{a(n+1)} + C  $
+\item[3.] $\int \dfrac{dx}{x} = \ln|x| + C $
+\item[4.] $\int \dfrac{dx}{ax+b} = \dfrac{1}{a} \ln |ax+b| + C $
+\item[5.] $\int \dfrac{ax+b}{cx+d}dx = \dfrac{a}{c} x + \dfrac{bc-ad}{c^2} \ln |cx+d| + C $
+\item[6.] $\int \dfrac{dx}{(x+a)(x+b)} = \dfrac{1}{a-b}\ln \left| \dfrac{x+b}{x+a} \right| + C\ $ 
+\item[7.] $\int \dfrac{dx}{x^2 - a^2} = \dfrac{1}{2a}\ln \left| \dfrac{x-a}{x+a} \right| + C\ $ 
+\item[8.] $\int \frac{xdx}{(x+a)\cdot(x+b)} = \frac{1}{a-b}(a \cdot \ln |x+a| - b \cdot \ln |x+b|) + C $
+\item[9.] $\int\dfrac{xdx}{x^2 - a^2} = \dfrac{1}{2}\ln |x^2 + a^2| + C$
+\item[10.] $\int\dfrac{dx}{x^2 + a^2} = \dfrac{1}{a}arctg\left( \frac{x}{a} \right)+C$
+\item[11.] $\int\dfrac{xdx}{x^2 + a^2} = \dfrac{1}{2}\ln\left|x^2+a^2\right|+C$
+\item[12.] $ \int \dfrac{dx}{(x^2 + a^2)^2} = \frac{1}{2a^2} \cdot \dfrac{x}{x^2 + a^2} + \frac{1}{2a^3}arctg \left(\frac{x}{a} \right) + C $
+\item[13.] $\int \dfrac{dx}{(x^2 + a^2)^2} = -\dfrac{1}{2} \cdot \dfrac{1}{x^2 + a^2} + C $
+\item[14.] $\int \dfrac{dx}{(x^2 + a^2)^3} = -\dfrac{1}{4} \cdot \dfrac{1}{(x^2 + a^2)^2} + C $
+\item[15.] $\int \dfrac{dx}{ax^2 + bx + c}=\dfrac{1}{\sqrt{b^2-4ac}}\cdot \ln \left|\frac{2ax + b-\sqrt{b^2-4ac}}{2ax + b+\sqrt{b^2}-4ac} \right| + C \ , (b^2-4ac > 0) $
+\item[16.] $ \int \dfrac{dx}{ax^2 + bx + c} = \dfrac{2}{\sqrt{4ac-b^2}} \cdot arctg \left(\dfrac{2ax+b}{\sqrt{4ac-b^2}} \right)+C \ ,(b^2 - 4ac < 0) $
+\item[17.] $ \int \dfrac{xdx}{ax^2 + bx + c} = \frac{1}{2a}\ln |ax^2 + bx +c|-\frac{b}{2a}\int \dfrac{dx}{ax^2 + bx + c} $
+\item[18.] $ \int \dfrac{xdx}{ax+b} = \frac{1}{a^2}(b-ax-b \cdot \ln |ax+b|) + C $
+\item[19.]$\int \dfrac{x^2dx}{ax+b} = \frac{1}{a^3}\left[\dfrac{1}{2}(ax+b)^2 -2b(ax + b)+b^2\ln|ax+b| \right]+C$
+\item[20.] $\int \dfrac{dx}{x(ax+b)}=\frac{1}{b}\ln \left|\dfrac{ax+b}{x} \right| + C   $
+\item[21.] $\int \dfrac{dx}{x^2(ax+b)}=-\frac{1}{bx}+\dfrac{a}{b^2} \cdot \ln \left|\dfrac{ax+b}{x} \right| + C   $
+\item[22.] $\int \dfrac{xdx}{(ax+b)^2} = \frac{1}{a^2} \left(\ln|ax+b| + \dfrac{b}{ax+b} \right) + C $
+\item[23.] $\int \dfrac{x^2dx}{(ax+b)^2} = \frac{1}{a^3} \left(b+ax-2b \cdot \ln |ax+b| - \dfrac{b^2}{ax+b} \right) + C$
+\end{itemize}
+%\end{multicols}
+\newpage
+  \begin{multicols}{3}
+    \begin{itemize}
+\item[1.] $\int 0 \cdot dx = C $
+\item[2.] $\int dx = x + C $
+\item[3.] $\int x^n dx = \dfrac{x^{n+1}}{n+1} + C  $
+\item[3.] $\int \dfrac{dx}{x} = \ln|x| + C   $
+\item[4.] $\int \dfrac{du}{\sqrt{u}} = 2\sqrt{u} + C $
+\item[5.] $\int a^x dx = \dfrac{a^x}{\ln a}+C $
+\item[6.] $ \int e^x dx = e^x + C  $
+\item[7.] $\int \sin x dx  = -\cos x + C $
+\item[8.] $\int \cos x dx  = \sin x + C $
+\item[9.] $ \int \dfrac{dx}{\cos^2x} = tgx + C $
+\item[10.] $ \int \dfrac{dx}{\sin^2x} = -ctgx + C $
+\item[11.] $\int \dfrac{dx}{x^2 - a^2} = \dfrac{1}{2a}\ln \left| \dfrac{x-a}{x+a} \right| + C\ $ 
+\item[12.] $ \int \frac{dx}{\sqrt{x^2 \pm a^2}}=\ln|x+\sqrt{x^2 \pm a^2}| + C$
+\item[13.] $\int \dfrac{dx}{\sqrt{a^2 - x^2}} = \arcsin \dfrac{x}{a} + C   $
+\item[14.] $ \int \dfrac{dx}{x^2 + a^2} = \dfrac{1}{a} \arctg \dfrac{x}{a} + C$
+\item[15.] $ \int \tan x dx  = -\ln||cosx| + C $ 
+\item[16.] $ \int \ctg x dx  = \ln||sinx| + C $ 
+\end{itemize}
+\end{multicols}
+ $ \int \dfrac{dx}{\sqrt{ax^2 + b + c}} = $
+ \begin{flushright}
+   \begin{tabular}{l l l} 
+   &  {$\nearrow $} & {$ \int \dfrac{dx}{\sqrt{x^2-a}}=arcsin\frac{x}{a} + C $} \\
+  $ \int \dfrac{dx}{\sqrt{ax^2 + b + c}} = $ &  &  \\ 
+       & $\searrow $ & $ \int \dfrac{dx}{\sqrt{x^2+a}} = \ln|x+\sqrt{x^2+a}| + C  $\\ 
+  \end{tabular}
+\end{flushright}
+\end{landscape}
+
+
+\begin{displaymath}
+\mathbf{A^{-1}}=\dfrac{1}{|A|}
+\left( \begin{array}{cccc}
+A_{11} & A_{12} & \ldots & A_{1n} \\
+A_{21} & A_{22} & \vdots & A_{2n} \\
+\ldots & \ldots & \ldots & \ldots \\
+A_{n1} & A_{n2} & \ldots & A_{nn} \\
+\end{array} \right)^T
+\end{displaymath}
+
+\begin{displaymath}
+\left\{ \begin{array}{l}
+ a_{11}x_1 + a_{12}x_2 + \ldots + a_{1n}x_n = b_1 \\
+ a_{21}x_1 + a_{22}x_2 + \ldots + a_{2n}x_n = b_2 \\
+ \ldots \ \ \ \ldots \ \ \  \ldots \\
+ a_{m1}x_1 + a_{m2}x_2 + \ldots + a_mn x_n = b_m \\                    
+  \end{array} \right.
+\end{displaymath}
+
+$\overbrace{a + b + c + d}^{\alpha} + e + f$
+\\
+$\underbrace{a + b + c + d}_{\omega} + e + f$
+
+$\textrm{Если} a = b, \textrm{то} \ldots $
+
+
+
+
+
+\end{document}
+
+

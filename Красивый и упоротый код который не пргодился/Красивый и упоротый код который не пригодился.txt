@@ -1,0 +1,20 @@
+\begin{flushright}
+\begin{minipage}[t][2\mytextsize][t]{2in} % размер minipage равен удвоенному размеру основного шрифта
+\begin{flushright}
+\centering
+  \mbox{\underline{Басалаев Дмитрий}\underline{\hspace{1in}}}\\ {\small оценка}
+ 
+  \centering
+  {\tiny(Ф.И.О.)} 
+  %\vspace{\mytextsize} % отступ minipage для выравнивания линии подчёркивания с базовой линией остального %текста
+ \underline{Болковая Полина}\\
+  \centering
+  {\tiny (Ф.И.О)}\\
+%\vspace{\mytextsize}
+\underline{Буданцев Артем}\\
+ {\tiny(Ф.И.О)}
+\vspace{\mytextsize}
+\end{flushright}
+
+\end{minipage}
+\end{flushright}
