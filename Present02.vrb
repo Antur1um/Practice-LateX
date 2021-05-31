@@ -1,0 +1,19 @@
+\frametitle{Исходный код}
+\begin{adjustbox}{scale=0.8}
+\begin{large}
+
+
+ \begin{lstlisting}[language=Tex]
+  \begin{tikzpicture}[scale=1.75]
+\fill[left color=magenta, right color=yellow]
+(0,0) -- node[below=3pt] {$a$} (4,0) --
+node[right=5pt] {$b$} (4,3) --
+cycle node[midway,above,sloped] {$c=\sqrt{a^2+b^2}$};
+\node[below left] at (0,0) {\color{blue}$B$};
+\node[below right] at (4,0) {\color{blue}$C$};
+\node[above right] at (4,3) {\color{blue}$A$};
+\end{tikzpicture}
+
+\end{lstlisting}
+\end{large}
+\end{adjustbox}
