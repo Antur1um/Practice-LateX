@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/W32TeX) (preloaded format=pdflatex 2021.3.23)  31 MAY 2021 21:01
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/W32TeX) (preloaded format=pdflatex 2021.3.23)  1 JUN 2021 10:40
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1311,14 +1311,21 @@ Overfull \hbox (41.71881pt too wide) in paragraph at lines 501--502
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package rerunfilecheck Info: File `"Отчет в поцессе(это пра�
-�ильный)".out' has not changed.
-(rerunfilecheck)             Checksum: A5F62EAFB7277DC60CD83F481E0754C3;3866.
+
+Package rerunfilecheck Warning: File `"Отчет в поцессе(это пр
+авильный)".out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `"Отчет в поцессе(эт�
+� правильный)".out':
+(rerunfilecheck)             Before: 8CE6F908D6E528AEA1F7F29A25B4582B;3885
+(rerunfilecheck)             After:  A5F62EAFB7277DC60CD83F481E0754C3;3866.
  ) 
 Here is how much of TeX's memory you used:
  33055 strings out of 479014
  757004 string characters out of 5863086
- 1221325 words of memory out of 5000000
+ 1221317 words of memory out of 5000000
  49976 multiletter control sequences out of 15000+600000
  424570 words of font info for 63 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
