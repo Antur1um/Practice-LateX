@@ -1,0 +1,9 @@
+\babel@toc {russian}{}
+\beamer@sectionintoc {1}{Общие цели и задачи}{2}{0}{1}
+\beamer@sectionintoc {2}{План график}{3}{0}{2}
+\beamer@sectionintoc {3}{Используемые программные средства}{4}{0}{3}
+\beamer@sectionintoc {4}{Ход работы}{5}{0}{4}
+\beamer@subsectionintoc {4}{1}{Ввод формул}{5}{0}{4}
+\beamer@subsectionintoc {4}{2}{Работа с графикой и изображениями}{14}{0}{4}
+\beamer@subsectionintoc {4}{3}{Работа с окружениями}{30}{0}{4}
+\beamer@sectionintoc {5}{Конец}{37}{0}{5}

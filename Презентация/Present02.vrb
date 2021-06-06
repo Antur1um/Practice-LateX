@@ -1,0 +1,24 @@
+\frametitle{Исходный код списка}
+\begin{adjustbox}{scale=0.7}
+\begin{large}
+\transwipe
+\
+ \begin{lstlisting}[language=Tex]
+ \begin{itemize}
+  \item[and here you can enter markers
+  (by default, these are points)]
+   Level 0 Item 0
+  \item Level 0 Item 1
+  \begin{itemize}
+    \item Level 1 Item
+    \begin{itemize}
+      \item Level 2 Item
+      \begin{itemize}
+        \item Level 3 Item
+      \end{itemize}
+    \end{itemize}
+  \end{itemize}
+\end{itemize}
+\end{lstlisting}
+\end{large}
+\end{adjustbox}
